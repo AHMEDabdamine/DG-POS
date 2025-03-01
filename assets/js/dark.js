@@ -79,7 +79,7 @@ function u() {
 }
 function c() {
   const e = document.createElement("div");
-  console.log(window.innerWidth), e.id = "nightowl-switcher-default", e.style.position = "fixed", e.style.left = "calc(100vw - 100px)", e.style.top = "calc(10px)", e.style.width = "50px", e.style.height = "50px", e.style.borderRadius = "50%", e.style.backgroundColor = i === "newState" ? "black" : "white", e.style.display = "flex", e.style.justifyContent = "center", e.style.alignItems = "center", e.style.cursor = "pointer", e.style.zIndex = "9999", e.style.boxShadow = "0 0 10px rgba(0,0,0,0.2)", e.style.transition = "all 0.3s ease-in-out", e.style.overflow = "hidden", e.style.color = i === "newState" ? "white" : "black", e.addEventListener("click", () => {
+  console.log(window.innerWidth), e.id = "nightowl-switcher-default", e.style.position = "fixed", e.style.left = "calc(100vw - 150px)", e.style.top = "calc(10px)", e.style.width = "50px", e.style.height = "50px", e.style.borderRadius = "50%", e.style.backgroundColor = i === "newState" ? "black" : "white", e.style.display = "flex", e.style.justifyContent = "center", e.style.alignItems = "center", e.style.cursor = "pointer", e.style.zIndex = "9999", e.style.boxShadow = "0 0 10px rgba(0,0,0,0.2)", e.style.transition = "all 0.3s ease-in-out", e.style.overflow = "hidden", e.style.color = i === "newState" ? "white" : "black", e.addEventListener("click", () => {
     k(), p();
   }), document.body.appendChild(e), u();
 }
